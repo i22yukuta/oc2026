@@ -1,0 +1,28 @@
+{
+    "name": "OC2026",
+    "description": "micro:bit V2 + Retro Arcade: tilt-controlled exploration maze with two stages",
+    "dependencies": {
+        "device": "*",
+        "accelerometer": "*",
+        "controller": "*"
+    },
+    "files": [
+        "main.ts",
+        "main.blocks",
+        "tilt.ts",
+        "README.md",
+        "assets.json",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
